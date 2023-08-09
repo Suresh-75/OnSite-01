@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>OnsiteTask-01</title>
+</head>
+
+<body>
+    <dialog class="modal">
+        <section>
+            <header>
+                <p class="gameOver">GAME OVER</p>
+            </header>
+            <span>SCORE : <span class="currentScoreDisplay">0</span></span>
+            <section class="gameOverbtns">
+                <button class="playBtn">PLAY AGAIN</button>
+            </section>
+        </section>
+    </dialog>
+    <div class="mainContainer">
+        <span class="timeText">00:00</span>
+        <div class="gameContainer">
+            <div class="firstContainer">
+                <span>
+                    <img src="images/Delta.png" alt="" class="deltaLogo">
+                    <p class="onsiteP">ONSITE-01</p>
+                </span>
+                <button class="restartBtn">RESTART</button>
+            </div>
+            <div class="gameBoard">
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+                <div class="gameCell"></div>
+            </div>
+            <div class="colorBoardContainer">
+                <div class="scoreContainer">
+                    <span class="scoreBoard">HighScore: <span class="highScore">0</span></span>
+                    <span class="scoreBoard">Score: <span class="currentScore">0</span></span>
+                </div>
+                <div class="colorBoard">
+                    <p class="textClick">FIND THIS</p>
+                    <div class="colorBlock"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
